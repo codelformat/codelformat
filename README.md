@@ -6,9 +6,24 @@
   <a href="mailto:sguan.harry@outlook.com">Email</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href="https://www.linkedin.com/in/sheng-harry-guan-a9a991280">LinkedIn</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href="https://orcid.org/0009-0002-9597-8329">ORCID</a>
 </p>
 
-I'm an MPhil student in Computer Science and Engineering at CUHK. My work sits between research and engineering: I turn new methods into tested, reusable code, and I check the data before I trust a result. Lately that means agent memory and its evaluation, model serving, and watermarking for generative models.
+I'm an MPhil student in Computer Science and Engineering at CUHK. My work sits between research and engineering: I turn new methods into tested, reusable code, and I check the data before I trust a result. Lately that means LLM agents and their evaluation, agent memory, model serving, and watermarking for generative models.
 
 I'm open to internships and full-time roles in LLM and agent application engineering and applied AI, in Hong Kong and mainland China.
+
+## Agent engineering
+
+<a href="https://github.com/codelformat/Aftersales-agent"><img src="assets/aftersales-agent.svg" width="100%" alt="Aftersales Agent: a LangGraph customer-service agent that cites evidence, refuses when evidence is weak, and learns from human review. Recall@1 0.861 with reranking, faithfulness 0.964, 1,115 backend tests in CI, 7 recorded real sessions."></a>
+
+<p>
+  <a href="https://codelformat.github.io/Aftersales-agent/"><img alt="Live replay" src="https://img.shields.io/badge/live%20replay-open-F2B544?style=flat-square&labelColor=0F2D50"></a>
+  <a href="https://github.com/codelformat/Aftersales-agent/actions/workflows/backend.yml"><img alt="Backend CI" src="https://img.shields.io/github/actions/workflow/status/codelformat/Aftersales-agent/backend.yml?branch=main&style=flat-square&label=backend%20CI&labelColor=0F2D50"></a>
+  <a href="https://github.com/codelformat/Aftersales-agent/actions/workflows/web.yml"><img alt="Web CI" src="https://img.shields.io/github/actions/workflow/status/codelformat/Aftersales-agent/web.yml?branch=main&style=flat-square&label=web%20CI&labelColor=0F2D50"></a>
+  <a href="https://github.com/codelformat/Aftersales-agent/blob/main/LICENSE"><img alt="MIT" src="https://img.shields.io/badge/license-MIT-173F6B?style=flat-square&labelColor=0F2D50"></a>
+</p>
+
+A customer-service agent for an online shop, built on LangGraph, Milvus and MCP. It routes each question, cites its evidence, and refuses when the evidence is weak; a calibrated gate makes that call, and human review turns refusals into new knowledge. I set the goals and made the design decisions. AI coding agents wrote the code under my specs, tests and review.
+
+In 30 seconds: [watch a recorded session](https://codelformat.github.io/Aftersales-agent/) / [read the decision records](https://github.com/codelformat/Aftersales-agent#decision-records) / [see what broke and how I fixed it](https://github.com/codelformat/Aftersales-agent#what-broke-and-how-i-fixed-it).
 
 ## Research software
 
@@ -79,6 +94,7 @@ Also: a [course-management system](https://github.com/codelformat/BUPTLab-OOAD) 
 
 ## Toolbox
 
+- **Agents and LLM apps:** LangGraph, LangChain, MCP, Milvus (dense and BM25), rerankers, Langfuse, FastAPI, Playwright
 - **Models and training:** Python, PyTorch, Transformers, Diffusers, vLLM and vLLM-Omni, DeepSpeed, LoRA
 - **Evaluation and quality:** pytest, GitHub Actions, LLM-as-a-Judge, LoCoMo, LongMemEval
 - **Data and retrieval:** Elasticsearch, FAISS, ChromaDB, bge-m3 and rerankers, Ray, FastAPI
@@ -91,7 +107,7 @@ Also: a [course-management system](https://github.com/codelformat/BUPTLab-OOAD) 
 
 我是管昇（Harry），香港中文大学计算机科学与工程 MPhil 在读，本科毕业于北京邮电大学软件工程（GPA 3.86/4.00，专业排名 2/157，两次国家奖学金）。我的工作介于研究和工程之间：把新方法做成经过测试、可复用的代码，并且在相信一个结果之前先检查数据。
 
-研究经历包括清华大学（生成式水印：MarkDiffusion、Water-Probe、MarkLLM）、北邮移动网络技术研究中心（大模型安全对齐 PT-ALIGN），以及记忆张量 MemTensor（个性化记忆）。目前关注智能体记忆与评测、模型推理服务和可信生成式 AI。欢迎联系：sguan.harry@outlook.com
+研究经历包括清华大学（生成式水印：MarkDiffusion、Water-Probe、MarkLLM）、北邮移动网络技术研究中心（大模型安全对齐 PT-ALIGN），以及记忆张量 MemTensor（个性化记忆）。目前关注大模型智能体与评测、智能体记忆、模型推理服务和可信生成式 AI。近期作品：[电商售后智能客服 Aftersales Agent](https://github.com/codelformat/Aftersales-agent)（LangGraph、混合检索与重排、校准的置信度闸、MCP 工具），可以[在线观看真实会话回放](https://codelformat.github.io/Aftersales-agent/)。欢迎联系：sguan.harry@outlook.com
 
 </details>
 
@@ -105,6 +121,20 @@ The small grid in its lower-right corner holds 40 bits. Read it column by column
 <summary>Answer</summary>
 
 `01001000 01000001 01010010 01010010 01011001` spells **HARRY**.
+
+</details>
+</details>
+
+<details>
+<summary>So is the Aftersales Agent card.</summary>
+<br>
+
+The dots in its lower-right corner hold 56 bits. Read them the same way: column by column, top to bottom, amber as 1. Seven columns, eight bits each, ASCII.
+
+<details>
+<summary>Answer</summary>
+
+They spell **547069d**, the commit that [added the evaluation report](https://github.com/codelformat/Aftersales-agent/commit/547069d) behind the card's numbers.
 
 </details>
 </details>
