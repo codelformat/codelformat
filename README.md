@@ -8,7 +8,7 @@
 
 I'm an MPhil student in Computer Science and Engineering at CUHK. My work sits between research and engineering: I turn new methods into tested, reusable code, and I check the data before I trust a result. Lately that means LLM agents and their evaluation, agent memory, model serving, and watermarking for generative models.
 
-I'm open to internships and full-time roles in LLM and agent application engineering and applied AI, in Hong Kong and mainland China.
+Currently taking an intentional **GAP**, I'm open to internships and full-time roles in LLM and agent application engineering and applied AI, in Hong Kong and mainland China.
 
 ## Agent engineering
 
