@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="mailto:sguan.harry@outlook.com">Email</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href="https://www.linkedin.com/in/sheng-harry-guan-a9a991280">LinkedIn</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href="https://orcid.org/0009-0002-9597-8329">ORCID</a>
+  <a href="mailto:sguan.harry@outlook.com">Email</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href="[https://www.linkedin.com/in/sheng-harry-guan-a9a991280](https://www.linkedin.com/in/sheng-guan-a9a991280)">LinkedIn</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href="https://orcid.org/0009-0002-9597-8329">ORCID</a>
 </p>
 
 I'm an MPhil student in Computer Science and Engineering at CUHK. My work sits between research and engineering: I turn new methods into tested, reusable code, and I check the data before I trust a result. Lately that means LLM agents and their evaluation, agent memory, model serving, and watermarking for generative models.
